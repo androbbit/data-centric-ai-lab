@@ -1,3 +1,5 @@
 echo "*.csv" >> .gitignore
 echo "__pycache__/" >> .gitignore
+echo "*/__pycache__/" >> .gitignore
+echo "*/*/__pycache__/" >> .gitignore
 echo ".DS_Store" >> .gitignore
